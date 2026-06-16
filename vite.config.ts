@@ -12,4 +12,9 @@ export default defineConfig({
   tanstackStart: {
     server: { entry: "server" },
   },
+  vite: {
+    preview: {
+      allowedHosts: ["beastrengthx.com", "www.beastrengthx.com"],
+    },
+  },
 });
