@@ -1,0 +1,1 @@
+UPDATE public.template_days SET is_rest_day=false, day_title='전신 가벼운 세션' WHERE id='3b31cdd0-64ee-49b1-bbdf-9cefc15fbea3';

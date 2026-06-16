@@ -1,0 +1,14 @@
+.git
+.lovable
+.tmp
+.wrangler
+.vinxi
+.tanstack
+.nitro
+dist
+dist-ssr
+logs
+node_modules
+*.log
+*.local
+.DS_Store
