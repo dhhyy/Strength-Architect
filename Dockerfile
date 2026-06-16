@@ -19,6 +19,7 @@ ENV NODE_ENV=production
 COPY package.json bun.lock bunfig.toml vite.config.ts tsconfig.json ./
 COPY --from=build /app/node_modules ./node_modules
 COPY --from=build /app/dist ./dist
+COPY --from=build /app/src ./src
 
 EXPOSE 3000
 
